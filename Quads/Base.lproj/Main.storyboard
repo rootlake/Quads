@@ -29,8 +29,8 @@
                                     <color key="titleColor" red="0.1758605647" green="0.1758605647" blue="0.1758605647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmD-8R-YU8">
-                                <rect key="frame" x="180" y="0.0" width="179" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmD-8R-YU8">
+                                <rect key="frame" x="180" y="0.0" width="180" height="219"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.1758605647" green="0.1758605647" blue="0.1758605647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -43,6 +43,7 @@
                             <constraint firstItem="nmD-8R-YU8" firstAttribute="leading" secondItem="g0z-m7-83B" secondAttribute="trailing" id="5M4-pe-G1O"/>
                             <constraint firstItem="nmD-8R-YU8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="8va-Zf-tYB"/>
                             <constraint firstItem="g0z-m7-83B" firstAttribute="height" secondItem="nmD-8R-YU8" secondAttribute="height" id="CV6-0g-kM7"/>
+                            <constraint firstAttribute="trailing" secondItem="nmD-8R-YU8" secondAttribute="trailing" id="FGm-Wk-3tD"/>
                             <constraint firstItem="g0z-m7-83B" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FTf-uM-eIt"/>
                             <constraint firstItem="g0z-m7-83B" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="efv-LK-af7"/>
                             <constraint firstItem="nmD-8R-YU8" firstAttribute="leading" secondItem="g0z-m7-83B" secondAttribute="trailing" id="fgG-bi-hlF"/>
